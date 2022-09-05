@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Humo Paywall remover",
+    "version": "0.1",
+    "description": "This extension removes the paywall from articles of the newspaper 'HUMO'.",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.humo.be/*",
+				"https://*.demorgen.be/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ]
+}
