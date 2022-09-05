@@ -1,4 +1,4 @@
-const removePayWall = () => {
+const rem = () => {
   const unwantedElements = document.querySelectorAll(
     "[data-temptation-position]"
   );
@@ -15,5 +15,10 @@ const unhideAllElements = () => {
   });
 };
 
-removePayWall();
-unhideAllElements();
+const run = () => {
+  chrome.action.setIcon({ path: "icon.png" })
+  rem();
+  unhideAllElements();
+}
+
+run()
