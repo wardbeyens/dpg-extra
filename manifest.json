@@ -12,7 +12,7 @@
         {
             "matches": [
                 "https://*.humo.be/*",
-				"https://*.demorgen.be/*"
+		"https://*.demorgen.be/*"
             ],
             "js": [
                 "contentScript.js"
