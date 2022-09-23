@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "DPG extra",
-    "version": "0.0.2",
+    "version": "1.0.1",
     "description": "This extension shows the entire DPG media articles.",
     "icons": {
         "16": "grey-icon.png",
