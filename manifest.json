@@ -1,22 +1,17 @@
 {
-    "manifest_version": 3,
-    "name": "DPG extra",
-    "version": "1.0.1",
-    "description": "This extension shows the entire DPG media articles.",
-    "icons": {
-        "16": "grey-icon.png",
-        "48": "grey-icon.png",
-        "128": "grey-icon.png"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://*.humo.be/*",
-		"https://*.demorgen.be/*"
-            ],
-            "js": [
-                "contentScript.js"
-            ]
-        }
-    ]
+  "manifest_version": 3,
+  "name": "DPG extra",
+  "version": "1.0.2",
+  "description": "This extension shows the entire DPG media articles.",
+  "icons": {
+    "16": "grey-icon.png",
+    "48": "grey-icon.png",
+    "128": "grey-icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.humo.be/*", "https://*.demorgen.be/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
 }
